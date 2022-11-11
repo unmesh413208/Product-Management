@@ -1,0 +1,31 @@
+{
+  "name": "project-products-management",
+  "version": "1.0.0",
+  "description": "- ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saswath1403/Project-Products-Management.git"
+  },
+  "author": "Saswath Singh, Subhajit Bokshi, Soumyaprakash Ojha, Unmesh Dhore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saswath1403/Project-Products-Management/issues"
+  },
+  "homepage": "https://github.com/Saswath1403/Project-Products-Management#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1181.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {}
+}
